@@ -11,7 +11,8 @@
 <div class="container">
     <label for="">Nombre de cliente:</label>
     <br>
-    <input class='inputValue' type="text"><br>
+    <input class='inputValue' type="text">
+    <br>
     <label for="">Material de la caja:</label>
     <select name="material" id="materialValue">
         <option value="madera">Madera</option>
@@ -19,7 +20,21 @@
         <option value="oreo">Oreo</option>
         <option value="carton">Cartón</option>
     </select>
+    <br>
+    <br>
+    <label for="dimension">Seleccione las dimensiones de la caja: </label>
+    <br>
+    <input type="checkbox" name="diminuta" id="diminuta">Diminuta <br>
+    <input type="checkbox" name="Mediana" id="mediana">Mediana <br>
+    <input type="checkbox" name="grande" id="grande">Grande
+    <br>
+    <label for="coments">Comentarios</label>
+    <br>
+    <textarea name="coments" id="coments" cols="30" rows="10"></textarea>
+    <br>
+    <button id="sendForm">Enviar</button> <p class="returnText"></p>
     
+
 </div>
 
 
